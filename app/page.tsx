@@ -37,14 +37,14 @@ export default function Home() {
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group group-hover:opacity-20" />
-              My projects
+              Learn More
             </Link>
             <Link
               href="/contact-me"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group group-hover:opacity-20" />
-              Contact Me
+              Learn More
             </Link>
           </div>
         </div>
@@ -63,13 +63,13 @@ export default function Home() {
           href="/my-projects"
           className="rounded-[20px]  group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
         >
-          My projects
+          Learn More
         </Link>
         <Link
           href="/contact-me"
           className="rounded-[20px]  group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
         >
-          Contact Me
+          Learn More
         </Link>
       </div>
 
