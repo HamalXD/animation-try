@@ -13,9 +13,9 @@ export default function Home() {
         <div className="pl-20 md:pl:40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white text-semibold">
             Make anything possible with
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-500"> 
-            {" "}
-            Web Development
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500">
+              {" "}
+              Web Development
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
@@ -34,17 +34,17 @@ export default function Home() {
             </Link>
             <Link
               href="/my-projects"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
+              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w [200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group group-hover:opacity-20" />
-              Learn More
+              My Projects
             </Link>
             <Link
               href="/contact-me"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
+              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w [200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group group-hover:opacity-20" />
-              Learn More
+              Contact Me
             </Link>
           </div>
         </div>
@@ -55,21 +55,21 @@ export default function Home() {
         {/* Buttons */}
         <Link
           href="/my-skills"
-          className="rounded-[20px]  group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
+          className="rounded-[20px]  group bg-blue-500 px-5 py-3 text-lg text-white max-w [200px]"
         >
           Learn More
         </Link>
         <Link
           href="/my-projects"
-          className="rounded-[20px]  group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
+          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w [200px]"
         >
-          Learn More
+          My Projects
         </Link>
         <Link
           href="/contact-me"
-          className="rounded-[20px]  group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w [200px]"
+          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w [200px]"
         >
-          Learn More
+          Contact Me
         </Link>
       </div>
 
@@ -79,13 +79,10 @@ export default function Home() {
           alt="Horse"
           height={300}
           width={300}
-          className="absolute right-55 top-40" />
+          className="absolute right-55 top-40"
+        />
 
-        <Image
-          src="/cliff.webp"
-          alt="cliff"
-          height={480}
-          width={480} />
+        <Image src="/cliff.webp" alt="cliff" height={480} width={480} />
       </div>
 
       <div className="absolute bottom-0 z-[5] w-full h-auto">
@@ -94,14 +91,16 @@ export default function Home() {
           alt="trees"
           height={2000}
           width={2000}
-          className="w-full h-full" />
+          className="w-full h-full"
+        />
 
         <Image
           src="/stars.png"
           alt="stars"
           height={300}
           width={300}
-          className="absolute top-10 left-0 z-[10]" />
+          className="absolute top-10 left-0 z-[10]"
+        />
       </div>
     </main>
   );
