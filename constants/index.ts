@@ -73,24 +73,29 @@ export const Socials = [
 ];
 export const Projects = [
     {
-        title: "Modern Nextjs Website",
+        title: "Github Facebook/issue Clone Website",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        src: "/NextWebsite.png",
+        src: "/ghCloneWebsite.png",
     },
     {
-        title: "Space Themed Website",
+        title: "Blog Website with loaders",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        src: "/SpaceWebsite.png",
+        src: "/BlogSite.png",
     },
     {
-        title: "Modern Nextjs Portfolio",
+        title: "Admin Dashboard Website",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        src: "/AdminDashboard.png",
+    },
+    {
+        title: "Nextjs Portfolio",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
         src: "/WebPortfolio.png",
     },
     {
-        title: "Matrix themed Website",
+        title: "MERN Stack Workout Tracker App",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        src: "/Matrix.png",
+        src: "/WorkOutWeb.png",
     },
 ];
 
